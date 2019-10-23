@@ -6,6 +6,7 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+
 templates:
   utter_greet:
   - text: Hey! How are you?
@@ -20,6 +21,9 @@ templates:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_greeting:
+  - text: What's going on?
+  
 actions:
 - utter_greet
 - utter_cheer_up
@@ -27,3 +31,4 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
+- utter_greeting

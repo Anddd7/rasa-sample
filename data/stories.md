@@ -29,3 +29,7 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## story1
+* mood_unhappy
+  - utter_greeting
